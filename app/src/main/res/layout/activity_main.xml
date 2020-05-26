@@ -8,6 +8,7 @@
     android:orientation="vertical"
     >
     <EditText
+        android:id="@+id/contentEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="전달할 내용"
@@ -15,12 +16,14 @@
         />
 
     <Button
+        android:id="@+id/okBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="확인"
         />
 
     <TextView
+        android:id="@+id/resultTxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
